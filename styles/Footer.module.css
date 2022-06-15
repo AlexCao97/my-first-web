@@ -1,15 +1,33 @@
-.footer {
+.footer{
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.avatar {
     display: flex;
     align-items: center;
     width: 100%;
     padding: 0 10% 0 10%
 }
+
 .line{
     width: 100%;
     border: 1px solid #e7e7e9;
 }
-.information{
-    align-items: center;    
-    display: flex;    
-    width: 100%;
+
+.socialContainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;    
+    margin-top: 20px;
+
 }
+.socialLogo{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin: 0 10px 0 10px;
+}
+
