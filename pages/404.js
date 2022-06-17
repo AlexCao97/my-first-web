@@ -1,24 +1,32 @@
 import React from "react";
 import styles from "@/styles/404.module.css";
-
+import Image from "next/image";
+import Oops from "@/assets/images/oops.png";
+import { Typography } from "@mui/material";
 export default function NotFound() {
   return (
     <div className={styles.container}>
-      <div className={styles.containerGhost}>
-        <div className={styles.ghostCopy}>
-          <div className={styles.one}></div>
-          <div className={styles.two}></div>
-          <div className={styles.three}></div>
-          <div className={styles.four}></div>
-        </div>
-        <div className={styles.ghost}>
-          <div className={styles.face}>
-            <div className={styles.eye}></div>
-            <div className={styles.eyeRight}></div>
-            <div className={styles.mouth}></div>
-          </div>
-        </div>
-        <div className={styles.shadow}></div>
+      <div className={styles.Oops}>
+        <Image src={Oops} alt="Oops" />
+        <Typography
+          variant="h4"
+          component="h4"
+          align="center"
+          gutterBottom
+          sx={{ marginTop: "20px" }}
+        >
+          404 - PAGE NOT FOUND
+        </Typography>
+        <Typography
+          variant="p"
+          component="p"
+          align="center"
+          gutterBottom
+          paragraph
+        >
+          The page you are looking for might have been removed had its name
+          changed or is temporarily unavailable.
+        </Typography>
       </div>
     </div>
   );

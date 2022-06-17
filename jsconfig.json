@@ -7,7 +7,6 @@
         "@/styles/*": ["styles/*"],
         "@/assets/icons/*": ["assets/icons/*"],
         "@/assets/images/*": ["assets/images/*"]
-
       }
     }
   }
