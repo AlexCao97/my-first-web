@@ -16,6 +16,43 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
         </div>
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn NextJS</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+        </div>
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn NextJS</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+        </div>
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn NextJS</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+        </div>
+
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn NextJS</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+        </div>
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn NextJS</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+        </div>
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn NextJS</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+        </div>
       </main>
     </div>
   );
