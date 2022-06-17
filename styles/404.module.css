@@ -9,6 +9,7 @@
 }
 
 .containerGhost {
+  top: 10vh;
   margin: 0 auto;
   position: relative;
   width: 250px;
